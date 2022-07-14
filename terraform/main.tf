@@ -13,6 +13,7 @@ module "sandbox" {
   account_tags = {
     "ABC:Stage" = "Sandbox"
     "ABC:Owner" = "blumron@amazon.com"
+    "ABC:Company" = "CallSign"
   }
 
   change_management_parameters = {
