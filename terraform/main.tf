@@ -11,7 +11,8 @@ module "sandbox" {
   }
 
   account_tags = {
-    "Stage" = "Sandbox"
+    "ABC:Stage" = "Sandbox"
+    "ABC:Owner" = "blumron@amazon.com"
   }
 
   change_management_parameters = {
